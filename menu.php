@@ -1,7 +1,7 @@
 <?php 
     $num1;
     $num2;
-    function shoewMenu($num1, $num2){
+    function showMenu($num1, $num2){
         echo "Выберите действия \n";
         echo "1. Ввести два числа\n"
         echo "2. Выполнить сложение\n"
