@@ -13,9 +13,9 @@
     function enterNum($num1, $num2)
     {
         echo "Введите первое число: ";
-        $a = (float)trim(fgets(SIDIN));
+        $num1 = (float)trim(fgets(SIDIN));
         echo "Введите второе число: ";
-        $b = (float)trim(fgets(SIDIN));
-        return [$a, $b];
+        $num2 = (float)trim(fgets(SIDIN));
+        return [$num1, $num2];
     }
 ?>
