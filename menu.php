@@ -11,4 +11,9 @@ cat > menu.php << 'EOF'
         echo "4. Выполнить деление\n"
         echo "5. Возвести число в степень\n"
     }
+    function sumNum($num1, $num2)
+    {
+        $result = $a + $b;
+        echo "Сумма чисел = $result \n";
+    }
 ?>
