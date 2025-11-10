@@ -10,12 +10,10 @@
         echo "5. Возвести число в степень\n"
     }
 
-    function enterNum($num1, $num2)
+    function subNum($num1, $num2)
     {
-        echo "Введите первое число: ";
-        $a = (float)trim(fgets(SIDIN));
-        echo "Введите второе число: ";
-        $b = (float)trim(fgets(SIDIN));
-        return [$a, $b];
+        $result = $num1 - $num2;
+        echo "Разность чисел = $result \n";
+        return[$num1, $num2];
     }
 ?>
