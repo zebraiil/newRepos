@@ -9,4 +9,14 @@
         echo "4. Выполнить деление\n"
         echo "5. Возвести число в степень\n"
     }
+    function delNum($num1, $num2){
+        if ($num2 == 0){
+            echo "Ошибка! Деление на 0 \n";
+        }
+        else{
+            $result = $num1 / $b;
+            echo "Результат деления: $result \n";
+        }
+        return[$num1, $num2];
+    }
 ?>
