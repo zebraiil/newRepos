@@ -1,5 +1,3 @@
-git init
-cat > menu.php << 'EOF'
 <?php 
     $num1;
     $num2;
