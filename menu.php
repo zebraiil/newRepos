@@ -15,5 +15,6 @@ cat > menu.php << 'EOF'
     {
         $result = $a + $b;
         echo "Сумма чисел = $result \n";
+        return [$a, $b];
     }
 ?>
