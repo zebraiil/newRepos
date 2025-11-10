@@ -9,4 +9,13 @@
         echo "4. Выполнить деление\n"
         echo "5. Возвести число в степень\n"
     }
+
+    function enterNum($num1, $num2)
+    {
+        echo "Введите первое число: ";
+        $a = (float)trim(fgets(SIDIN));
+        echo "Введите второе число: ";
+        $b = (float)trim(fgets(SIDIN));
+        return [$a, $b];
+    }
 ?>
