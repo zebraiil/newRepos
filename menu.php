@@ -7,4 +7,10 @@
     echo "3. Выполнить вычитание\n"
     echo "4. Выполнить деление\n"
     echo "5. Возвести число в степень\n"
+    
+    function stepNum($num1, $num2){
+        $result = pow($num1, $num2);
+        echo "Результат возвдения в степень: $result \n";
+        return[$num1, $num2];
+    }
 ?>
