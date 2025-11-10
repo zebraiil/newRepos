@@ -13,8 +13,8 @@ cat > menu.php << 'EOF'
     }
     function sumNum($num1, $num2)
     {
-        $result = $a + $b;
+        $result = $num1 + $num2;
         echo "Сумма чисел = $result \n";
-        return [$a, $b];
+        return [$num1, $num2];
     }
 ?>
